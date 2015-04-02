@@ -7,48 +7,48 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		49853FF91ACE0822002E11BA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49853FF81ACE0822002E11BA /* AppDelegate.swift */; };
-		49853FFB1ACE0822002E11BA /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49853FFA1ACE0822002E11BA /* FirstViewController.swift */; };
-		49853FFD1ACE0822002E11BA /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49853FFC1ACE0822002E11BA /* SecondViewController.swift */; };
-		498540001ACE0822002E11BA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 49853FFE1ACE0822002E11BA /* Main.storyboard */; };
-		498540021ACE0822002E11BA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 498540011ACE0822002E11BA /* Images.xcassets */; };
-		498540051ACE0822002E11BA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 498540031ACE0822002E11BA /* LaunchScreen.xib */; };
-		498540111ACE0822002E11BA /* BrewBookTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 498540101ACE0822002E11BA /* BrewBookTests.swift */; };
+		491D87D21ACE0CA50005D448 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491D87D11ACE0CA50005D448 /* AppDelegate.swift */; };
+		491D87D41ACE0CA50005D448 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491D87D31ACE0CA50005D448 /* FirstViewController.swift */; };
+		491D87D61ACE0CA50005D448 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491D87D51ACE0CA50005D448 /* SecondViewController.swift */; };
+		491D87D91ACE0CA50005D448 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 491D87D71ACE0CA50005D448 /* Main.storyboard */; };
+		491D87DB1ACE0CA50005D448 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 491D87DA1ACE0CA50005D448 /* Images.xcassets */; };
+		491D87DE1ACE0CA50005D448 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 491D87DC1ACE0CA50005D448 /* LaunchScreen.xib */; };
+		491D87EA1ACE0CA50005D448 /* BrewBookTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491D87E91ACE0CA50005D448 /* BrewBookTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		4985400B1ACE0822002E11BA /* PBXContainerItemProxy */ = {
+		491D87E41ACE0CA50005D448 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 49853FEB1ACE0821002E11BA /* Project object */;
+			containerPortal = 491D87C41ACE0CA50005D448 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 49853FF21ACE0822002E11BA;
+			remoteGlobalIDString = 491D87CB1ACE0CA50005D448;
 			remoteInfo = BrewBook;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		49853FF31ACE0822002E11BA /* BrewBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BrewBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		49853FF71ACE0822002E11BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		49853FF81ACE0822002E11BA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		49853FFA1ACE0822002E11BA /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		49853FFC1ACE0822002E11BA /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
-		49853FFF1ACE0822002E11BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		498540011ACE0822002E11BA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		498540041ACE0822002E11BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		4985400A1ACE0822002E11BA /* BrewBookTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BrewBookTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		4985400F1ACE0822002E11BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		498540101ACE0822002E11BA /* BrewBookTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrewBookTests.swift; sourceTree = "<group>"; };
+		491D87CC1ACE0CA50005D448 /* BrewBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BrewBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		491D87D01ACE0CA50005D448 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		491D87D11ACE0CA50005D448 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		491D87D31ACE0CA50005D448 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		491D87D51ACE0CA50005D448 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		491D87D81ACE0CA50005D448 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		491D87DA1ACE0CA50005D448 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		491D87DD1ACE0CA50005D448 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		491D87E31ACE0CA50005D448 /* BrewBookTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BrewBookTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		491D87E81ACE0CA50005D448 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		491D87E91ACE0CA50005D448 /* BrewBookTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrewBookTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		49853FF01ACE0822002E11BA /* Frameworks */ = {
+		491D87C91ACE0CA50005D448 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		498540071ACE0822002E11BA /* Frameworks */ = {
+		491D87E01ACE0CA50005D448 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -58,59 +58,59 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		49853FEA1ACE0821002E11BA = {
+		491D87C31ACE0CA50005D448 = {
 			isa = PBXGroup;
 			children = (
-				49853FF51ACE0822002E11BA /* BrewBook */,
-				4985400D1ACE0822002E11BA /* BrewBookTests */,
-				49853FF41ACE0822002E11BA /* Products */,
+				491D87CE1ACE0CA50005D448 /* BrewBook */,
+				491D87E61ACE0CA50005D448 /* BrewBookTests */,
+				491D87CD1ACE0CA50005D448 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		49853FF41ACE0822002E11BA /* Products */ = {
+		491D87CD1ACE0CA50005D448 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				49853FF31ACE0822002E11BA /* BrewBook.app */,
-				4985400A1ACE0822002E11BA /* BrewBookTests.xctest */,
+				491D87CC1ACE0CA50005D448 /* BrewBook.app */,
+				491D87E31ACE0CA50005D448 /* BrewBookTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		49853FF51ACE0822002E11BA /* BrewBook */ = {
+		491D87CE1ACE0CA50005D448 /* BrewBook */ = {
 			isa = PBXGroup;
 			children = (
-				49853FF81ACE0822002E11BA /* AppDelegate.swift */,
-				49853FFA1ACE0822002E11BA /* FirstViewController.swift */,
-				49853FFC1ACE0822002E11BA /* SecondViewController.swift */,
-				49853FFE1ACE0822002E11BA /* Main.storyboard */,
-				498540011ACE0822002E11BA /* Images.xcassets */,
-				498540031ACE0822002E11BA /* LaunchScreen.xib */,
-				49853FF61ACE0822002E11BA /* Supporting Files */,
+				491D87D11ACE0CA50005D448 /* AppDelegate.swift */,
+				491D87D31ACE0CA50005D448 /* FirstViewController.swift */,
+				491D87D51ACE0CA50005D448 /* SecondViewController.swift */,
+				491D87D71ACE0CA50005D448 /* Main.storyboard */,
+				491D87DA1ACE0CA50005D448 /* Images.xcassets */,
+				491D87DC1ACE0CA50005D448 /* LaunchScreen.xib */,
+				491D87CF1ACE0CA50005D448 /* Supporting Files */,
 			);
 			path = BrewBook;
 			sourceTree = "<group>";
 		};
-		49853FF61ACE0822002E11BA /* Supporting Files */ = {
+		491D87CF1ACE0CA50005D448 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				49853FF71ACE0822002E11BA /* Info.plist */,
+				491D87D01ACE0CA50005D448 /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		4985400D1ACE0822002E11BA /* BrewBookTests */ = {
+		491D87E61ACE0CA50005D448 /* BrewBookTests */ = {
 			isa = PBXGroup;
 			children = (
-				498540101ACE0822002E11BA /* BrewBookTests.swift */,
-				4985400E1ACE0822002E11BA /* Supporting Files */,
+				491D87E91ACE0CA50005D448 /* BrewBookTests.swift */,
+				491D87E71ACE0CA50005D448 /* Supporting Files */,
 			);
 			path = BrewBookTests;
 			sourceTree = "<group>";
 		};
-		4985400E1ACE0822002E11BA /* Supporting Files */ = {
+		491D87E71ACE0CA50005D448 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				4985400F1ACE0822002E11BA /* Info.plist */,
+				491D87E81ACE0CA50005D448 /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -118,13 +118,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		49853FF21ACE0822002E11BA /* BrewBook */ = {
+		491D87CB1ACE0CA50005D448 /* BrewBook */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 498540141ACE0822002E11BA /* Build configuration list for PBXNativeTarget "BrewBook" */;
+			buildConfigurationList = 491D87ED1ACE0CA50005D448 /* Build configuration list for PBXNativeTarget "BrewBook" */;
 			buildPhases = (
-				49853FEF1ACE0822002E11BA /* Sources */,
-				49853FF01ACE0822002E11BA /* Frameworks */,
-				49853FF11ACE0822002E11BA /* Resources */,
+				491D87C81ACE0CA50005D448 /* Sources */,
+				491D87C91ACE0CA50005D448 /* Frameworks */,
+				491D87CA1ACE0CA50005D448 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -132,46 +132,46 @@
 			);
 			name = BrewBook;
 			productName = BrewBook;
-			productReference = 49853FF31ACE0822002E11BA /* BrewBook.app */;
+			productReference = 491D87CC1ACE0CA50005D448 /* BrewBook.app */;
 			productType = "com.apple.product-type.application";
 		};
-		498540091ACE0822002E11BA /* BrewBookTests */ = {
+		491D87E21ACE0CA50005D448 /* BrewBookTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 498540171ACE0822002E11BA /* Build configuration list for PBXNativeTarget "BrewBookTests" */;
+			buildConfigurationList = 491D87F01ACE0CA50005D448 /* Build configuration list for PBXNativeTarget "BrewBookTests" */;
 			buildPhases = (
-				498540061ACE0822002E11BA /* Sources */,
-				498540071ACE0822002E11BA /* Frameworks */,
-				498540081ACE0822002E11BA /* Resources */,
+				491D87DF1ACE0CA50005D448 /* Sources */,
+				491D87E01ACE0CA50005D448 /* Frameworks */,
+				491D87E11ACE0CA50005D448 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				4985400C1ACE0822002E11BA /* PBXTargetDependency */,
+				491D87E51ACE0CA50005D448 /* PBXTargetDependency */,
 			);
 			name = BrewBookTests;
 			productName = BrewBookTests;
-			productReference = 4985400A1ACE0822002E11BA /* BrewBookTests.xctest */;
+			productReference = 491D87E31ACE0CA50005D448 /* BrewBookTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		49853FEB1ACE0821002E11BA /* Project object */ = {
+		491D87C41ACE0CA50005D448 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0630;
 				ORGANIZATIONNAME = ParthenonSoftwareGroup;
 				TargetAttributes = {
-					49853FF21ACE0822002E11BA = {
+					491D87CB1ACE0CA50005D448 = {
 						CreatedOnToolsVersion = 6.3;
 					};
-					498540091ACE0822002E11BA = {
+					491D87E21ACE0CA50005D448 = {
 						CreatedOnToolsVersion = 6.3;
-						TestTargetID = 49853FF21ACE0822002E11BA;
+						TestTargetID = 491D87CB1ACE0CA50005D448;
 					};
 				};
 			};
-			buildConfigurationList = 49853FEE1ACE0822002E11BA /* Build configuration list for PBXProject "BrewBook" */;
+			buildConfigurationList = 491D87C71ACE0CA50005D448 /* Build configuration list for PBXProject "BrewBook" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -179,29 +179,29 @@
 				en,
 				Base,
 			);
-			mainGroup = 49853FEA1ACE0821002E11BA;
-			productRefGroup = 49853FF41ACE0822002E11BA /* Products */;
+			mainGroup = 491D87C31ACE0CA50005D448;
+			productRefGroup = 491D87CD1ACE0CA50005D448 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				49853FF21ACE0822002E11BA /* BrewBook */,
-				498540091ACE0822002E11BA /* BrewBookTests */,
+				491D87CB1ACE0CA50005D448 /* BrewBook */,
+				491D87E21ACE0CA50005D448 /* BrewBookTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		49853FF11ACE0822002E11BA /* Resources */ = {
+		491D87CA1ACE0CA50005D448 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				498540001ACE0822002E11BA /* Main.storyboard in Resources */,
-				498540051ACE0822002E11BA /* LaunchScreen.xib in Resources */,
-				498540021ACE0822002E11BA /* Images.xcassets in Resources */,
+				491D87D91ACE0CA50005D448 /* Main.storyboard in Resources */,
+				491D87DE1ACE0CA50005D448 /* LaunchScreen.xib in Resources */,
+				491D87DB1ACE0CA50005D448 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		498540081ACE0822002E11BA /* Resources */ = {
+		491D87E11ACE0CA50005D448 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -211,47 +211,47 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		49853FEF1ACE0822002E11BA /* Sources */ = {
+		491D87C81ACE0CA50005D448 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				49853FFD1ACE0822002E11BA /* SecondViewController.swift in Sources */,
-				49853FF91ACE0822002E11BA /* AppDelegate.swift in Sources */,
-				49853FFB1ACE0822002E11BA /* FirstViewController.swift in Sources */,
+				491D87D61ACE0CA50005D448 /* SecondViewController.swift in Sources */,
+				491D87D21ACE0CA50005D448 /* AppDelegate.swift in Sources */,
+				491D87D41ACE0CA50005D448 /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		498540061ACE0822002E11BA /* Sources */ = {
+		491D87DF1ACE0CA50005D448 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				498540111ACE0822002E11BA /* BrewBookTests.swift in Sources */,
+				491D87EA1ACE0CA50005D448 /* BrewBookTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		4985400C1ACE0822002E11BA /* PBXTargetDependency */ = {
+		491D87E51ACE0CA50005D448 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 49853FF21ACE0822002E11BA /* BrewBook */;
-			targetProxy = 4985400B1ACE0822002E11BA /* PBXContainerItemProxy */;
+			target = 491D87CB1ACE0CA50005D448 /* BrewBook */;
+			targetProxy = 491D87E41ACE0CA50005D448 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		49853FFE1ACE0822002E11BA /* Main.storyboard */ = {
+		491D87D71ACE0CA50005D448 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				49853FFF1ACE0822002E11BA /* Base */,
+				491D87D81ACE0CA50005D448 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		498540031ACE0822002E11BA /* LaunchScreen.xib */ = {
+		491D87DC1ACE0CA50005D448 /* LaunchScreen.xib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				498540041ACE0822002E11BA /* Base */,
+				491D87DD1ACE0CA50005D448 /* Base */,
 			);
 			name = LaunchScreen.xib;
 			sourceTree = "<group>";
@@ -259,7 +259,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		498540121ACE0822002E11BA /* Debug */ = {
+		491D87EB1ACE0CA50005D448 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -304,7 +304,7 @@
 			};
 			name = Debug;
 		};
-		498540131ACE0822002E11BA /* Release */ = {
+		491D87EC1ACE0CA50005D448 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -342,7 +342,7 @@
 			};
 			name = Release;
 		};
-		498540151ACE0822002E11BA /* Debug */ = {
+		491D87EE1ACE0CA50005D448 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -352,7 +352,7 @@
 			};
 			name = Debug;
 		};
-		498540161ACE0822002E11BA /* Release */ = {
+		491D87EF1ACE0CA50005D448 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -362,7 +362,7 @@
 			};
 			name = Release;
 		};
-		498540181ACE0822002E11BA /* Debug */ = {
+		491D87F11ACE0CA50005D448 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -381,7 +381,7 @@
 			};
 			name = Debug;
 		};
-		498540191ACE0822002E11BA /* Release */ = {
+		491D87F21ACE0CA50005D448 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -399,32 +399,32 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		49853FEE1ACE0822002E11BA /* Build configuration list for PBXProject "BrewBook" */ = {
+		491D87C71ACE0CA50005D448 /* Build configuration list for PBXProject "BrewBook" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				498540121ACE0822002E11BA /* Debug */,
-				498540131ACE0822002E11BA /* Release */,
+				491D87EB1ACE0CA50005D448 /* Debug */,
+				491D87EC1ACE0CA50005D448 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		498540141ACE0822002E11BA /* Build configuration list for PBXNativeTarget "BrewBook" */ = {
+		491D87ED1ACE0CA50005D448 /* Build configuration list for PBXNativeTarget "BrewBook" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				498540151ACE0822002E11BA /* Debug */,
-				498540161ACE0822002E11BA /* Release */,
+				491D87EE1ACE0CA50005D448 /* Debug */,
+				491D87EF1ACE0CA50005D448 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
-		498540171ACE0822002E11BA /* Build configuration list for PBXNativeTarget "BrewBookTests" */ = {
+		491D87F01ACE0CA50005D448 /* Build configuration list for PBXNativeTarget "BrewBookTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				498540181ACE0822002E11BA /* Debug */,
-				498540191ACE0822002E11BA /* Release */,
+				491D87F11ACE0CA50005D448 /* Debug */,
+				491D87F21ACE0CA50005D448 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 49853FEB1ACE0821002E11BA /* Project object */;
+	rootObject = 491D87C41ACE0CA50005D448 /* Project object */;
 }
