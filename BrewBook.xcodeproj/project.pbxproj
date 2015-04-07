@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		49018E3A1AD349140049002F /* Recipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49018E391AD349140049002F /* Recipe.swift */; };
+		49018E3E1AD354AC0049002F /* CoreDataTestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49018E3D1AD354AC0049002F /* CoreDataTestCase.swift */; };
+		49018E401AD3558F0049002F /* RecipeTestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49018E3F1AD3558F0049002F /* RecipeTestCase.swift */; };
+		49018E411AD356B80049002F /* Recipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49018E391AD349140049002F /* Recipe.swift */; };
 		491D87D21ACE0CA50005D448 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491D87D11ACE0CA50005D448 /* AppDelegate.swift */; };
 		491D87D41ACE0CA50005D448 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491D87D31ACE0CA50005D448 /* FirstViewController.swift */; };
 		491D87D61ACE0CA50005D448 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491D87D51ACE0CA50005D448 /* SecondViewController.swift */; };
@@ -14,6 +18,7 @@
 		491D87DB1ACE0CA50005D448 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 491D87DA1ACE0CA50005D448 /* Images.xcassets */; };
 		491D87DE1ACE0CA50005D448 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 491D87DC1ACE0CA50005D448 /* LaunchScreen.xib */; };
 		491D87EA1ACE0CA50005D448 /* BrewBookTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491D87E91ACE0CA50005D448 /* BrewBookTests.swift */; };
+		491D87F51ACEFCD00005D448 /* BrewBookModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 491D87F31ACEFCD00005D448 /* BrewBookModel.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +32,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		49018E391AD349140049002F /* Recipe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Recipe.swift; sourceTree = "<group>"; };
+		49018E3D1AD354AC0049002F /* CoreDataTestCase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataTestCase.swift; sourceTree = "<group>"; };
+		49018E3F1AD3558F0049002F /* RecipeTestCase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecipeTestCase.swift; sourceTree = "<group>"; };
 		491D87CC1ACE0CA50005D448 /* BrewBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BrewBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		491D87D01ACE0CA50005D448 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		491D87D11ACE0CA50005D448 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -38,6 +46,8 @@
 		491D87E31ACE0CA50005D448 /* BrewBookTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BrewBookTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		491D87E81ACE0CA50005D448 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		491D87E91ACE0CA50005D448 /* BrewBookTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrewBookTests.swift; sourceTree = "<group>"; };
+		491D87F41ACEFCD00005D448 /* BrewBookModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BrewBookModel.xcdatamodel; sourceTree = "<group>"; };
+		491D87F61ACEFE640005D448 /* BrewBook-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BrewBook-Bridging-Header.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +89,8 @@
 		491D87CE1ACE0CA50005D448 /* BrewBook */ = {
 			isa = PBXGroup;
 			children = (
+				4952A8E31ACF2779005DC343 /* Extensions */,
+				491D87FA1ACEFE730005D448 /* Models */,
 				491D87D11ACE0CA50005D448 /* AppDelegate.swift */,
 				491D87D31ACE0CA50005D448 /* FirstViewController.swift */,
 				491D87D51ACE0CA50005D448 /* SecondViewController.swift */,
@@ -86,6 +98,7 @@
 				491D87DA1ACE0CA50005D448 /* Images.xcassets */,
 				491D87DC1ACE0CA50005D448 /* LaunchScreen.xib */,
 				491D87CF1ACE0CA50005D448 /* Supporting Files */,
+				491D87F61ACEFE640005D448 /* BrewBook-Bridging-Header.h */,
 			);
 			path = BrewBook;
 			sourceTree = "<group>";
@@ -103,6 +116,8 @@
 			children = (
 				491D87E91ACE0CA50005D448 /* BrewBookTests.swift */,
 				491D87E71ACE0CA50005D448 /* Supporting Files */,
+				49018E3D1AD354AC0049002F /* CoreDataTestCase.swift */,
+				49018E3F1AD3558F0049002F /* RecipeTestCase.swift */,
 			);
 			path = BrewBookTests;
 			sourceTree = "<group>";
@@ -113,6 +128,22 @@
 				491D87E81ACE0CA50005D448 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		491D87FA1ACEFE730005D448 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				49018E391AD349140049002F /* Recipe.swift */,
+				491D87F31ACEFCD00005D448 /* BrewBookModel.xcdatamodeld */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		4952A8E31ACF2779005DC343 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -217,7 +248,9 @@
 			files = (
 				491D87D61ACE0CA50005D448 /* SecondViewController.swift in Sources */,
 				491D87D21ACE0CA50005D448 /* AppDelegate.swift in Sources */,
+				491D87F51ACEFCD00005D448 /* BrewBookModel.xcdatamodeld in Sources */,
 				491D87D41ACE0CA50005D448 /* FirstViewController.swift in Sources */,
+				49018E3A1AD349140049002F /* Recipe.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -225,7 +258,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				49018E3E1AD354AC0049002F /* CoreDataTestCase.swift in Sources */,
 				491D87EA1ACE0CA50005D448 /* BrewBookTests.swift in Sources */,
+				49018E401AD3558F0049002F /* RecipeTestCase.swift in Sources */,
+				49018E411AD356B80049002F /* Recipe.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -346,9 +382,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = BrewBook/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "BrewBook/BrewBook-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -356,9 +395,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = BrewBook/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "BrewBook/BrewBook-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -427,6 +468,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		491D87F31ACEFCD00005D448 /* BrewBookModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				491D87F41ACEFCD00005D448 /* BrewBookModel.xcdatamodel */,
+			);
+			currentVersion = 491D87F41ACEFCD00005D448 /* BrewBookModel.xcdatamodel */;
+			path = BrewBookModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 491D87C41ACE0CA50005D448 /* Project object */;
 }

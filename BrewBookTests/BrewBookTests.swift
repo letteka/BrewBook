@@ -8,9 +8,10 @@
 
 import UIKit
 import XCTest
+import CoreData
+import BrewBook
 
 class BrewBookTests: XCTestCase {
-    
     override func setUp() {
         super.setUp()
         // Put setup code here. This method is called before the invocation of each test method in the class.
@@ -32,5 +33,4 @@ class BrewBookTests: XCTestCase {
             // Put the code you want to measure the time of here.
         }
     }
-    
 }
