@@ -11,8 +11,9 @@
 		49018E3E1AD354AC0049002F /* CoreDataTestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49018E3D1AD354AC0049002F /* CoreDataTestCase.swift */; };
 		49018E401AD3558F0049002F /* RecipeTestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49018E3F1AD3558F0049002F /* RecipeTestCase.swift */; };
 		49018E411AD356B80049002F /* Recipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49018E391AD349140049002F /* Recipe.swift */; };
+		49018E771AD483EB0049002F /* RecipeDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49018E761AD483EB0049002F /* RecipeDetailViewController.swift */; };
 		491D87D21ACE0CA50005D448 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491D87D11ACE0CA50005D448 /* AppDelegate.swift */; };
-		491D87D41ACE0CA50005D448 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491D87D31ACE0CA50005D448 /* FirstViewController.swift */; };
+		491D87D41ACE0CA50005D448 /* RecipeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491D87D31ACE0CA50005D448 /* RecipeTableViewController.swift */; };
 		491D87D61ACE0CA50005D448 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 491D87D51ACE0CA50005D448 /* SecondViewController.swift */; };
 		491D87D91ACE0CA50005D448 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 491D87D71ACE0CA50005D448 /* Main.storyboard */; };
 		491D87DB1ACE0CA50005D448 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 491D87DA1ACE0CA50005D448 /* Images.xcassets */; };
@@ -35,10 +36,11 @@
 		49018E391AD349140049002F /* Recipe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Recipe.swift; sourceTree = "<group>"; };
 		49018E3D1AD354AC0049002F /* CoreDataTestCase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataTestCase.swift; sourceTree = "<group>"; };
 		49018E3F1AD3558F0049002F /* RecipeTestCase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecipeTestCase.swift; sourceTree = "<group>"; };
+		49018E761AD483EB0049002F /* RecipeDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecipeDetailViewController.swift; sourceTree = "<group>"; };
 		491D87CC1ACE0CA50005D448 /* BrewBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BrewBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		491D87D01ACE0CA50005D448 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		491D87D11ACE0CA50005D448 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		491D87D31ACE0CA50005D448 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		491D87D31ACE0CA50005D448 /* RecipeTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeTableViewController.swift; sourceTree = "<group>"; };
 		491D87D51ACE0CA50005D448 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		491D87D81ACE0CA50005D448 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		491D87DA1ACE0CA50005D448 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
@@ -68,6 +70,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		49018E421AD444EF0049002F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				491D87D31ACE0CA50005D448 /* RecipeTableViewController.swift */,
+				491D87D51ACE0CA50005D448 /* SecondViewController.swift */,
+				491D87D71ACE0CA50005D448 /* Main.storyboard */,
+				491D87DC1ACE0CA50005D448 /* LaunchScreen.xib */,
+				49018E761AD483EB0049002F /* RecipeDetailViewController.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
 		491D87C31ACE0CA50005D448 = {
 			isa = PBXGroup;
 			children = (
@@ -89,14 +103,11 @@
 		491D87CE1ACE0CA50005D448 /* BrewBook */ = {
 			isa = PBXGroup;
 			children = (
+				49018E421AD444EF0049002F /* Views */,
 				4952A8E31ACF2779005DC343 /* Extensions */,
 				491D87FA1ACEFE730005D448 /* Models */,
 				491D87D11ACE0CA50005D448 /* AppDelegate.swift */,
-				491D87D31ACE0CA50005D448 /* FirstViewController.swift */,
-				491D87D51ACE0CA50005D448 /* SecondViewController.swift */,
-				491D87D71ACE0CA50005D448 /* Main.storyboard */,
 				491D87DA1ACE0CA50005D448 /* Images.xcassets */,
-				491D87DC1ACE0CA50005D448 /* LaunchScreen.xib */,
 				491D87CF1ACE0CA50005D448 /* Supporting Files */,
 				491D87F61ACEFE640005D448 /* BrewBook-Bridging-Header.h */,
 			);
@@ -249,7 +260,8 @@
 				491D87D61ACE0CA50005D448 /* SecondViewController.swift in Sources */,
 				491D87D21ACE0CA50005D448 /* AppDelegate.swift in Sources */,
 				491D87F51ACEFCD00005D448 /* BrewBookModel.xcdatamodeld in Sources */,
-				491D87D41ACE0CA50005D448 /* FirstViewController.swift in Sources */,
+				491D87D41ACE0CA50005D448 /* RecipeTableViewController.swift in Sources */,
+				49018E771AD483EB0049002F /* RecipeDetailViewController.swift in Sources */,
 				49018E3A1AD349140049002F /* Recipe.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
